@@ -57,6 +57,7 @@ img_procurar = ImageTk.PhotoImage(img_procurar)
 btn_pesquisa = Button(frame_meio, command=buscar_palavra, image=img_procurar, height=18, width=40)
 btn_pesquisa.place(x=150, y=40)
 
+# Criando campo scrolavel
 saida = scrolledtext.ScrolledText(frame_baixo, )
 saida.pack(expand=True, fill='both')
 saida.configure(font=20)
